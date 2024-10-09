@@ -17,7 +17,7 @@ jobs:
                 npm install @cspell/dict-software-terms
                 npm install @cspell/dict-golang
             - name: Run cspell
-              uses: streetsidesoftware/scpell-action@v2
+              uses: streetsidesoftware/cspell-action@v2
               with: 
                 files:  "*.tex"
                 check_dot_files: false
